@@ -16,6 +16,7 @@ pkg-config = "*"
 [dependencies]
 log = "*"
 time = "*"
+libc = "0.1"
 
 [lib]
 name = "fuse"

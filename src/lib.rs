@@ -7,12 +7,10 @@
 //! needed to establish a fd to talk to the kernel driver.
 //!
 
-#![feature(collections)]
 #![feature(convert)]
-#![feature(core)]
-#![feature(libc)]
 #![feature(scoped)]
-
+#![feature(core)]
+#![feature(collections)]
 #![warn(missing_docs, bad_style, unused, unused_extern_crates, unused_import_braces, unused_qualifications)]
 
 extern crate libc;
